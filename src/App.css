@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+	height: 100%;
+	width: 100%;
+	font-family: sans-serif;
+	font-size: 0.96em;
+}
+
+ .App,
+#map {
+	height: 100%;
+}
+
+
+.header{
+  position: relative;
+  max-width: 100%;
+  height: 60px;
+  margin-top: 0;
+  left: 0;
+  background-color: #A5E9A5;
+
+}
+
+.project-title{
+  font-style: Arial;
+  text-align: center;
+}
+
+
+.list-btn,
+.list-input,
+.info-window-box {
+	box-shadow: 0 0 3px rgba(170, 170, 170, 0.75);
+}
+
+/* Map Sites */
+.list-form {
+	width: 250px;
+}
+
+.list-box {
+	position: fixed;
+	top: 45px;
+	right: 0;
+	z-index: 100;
+	padding: 43px 10px 0px 10px;
+	background-color: aliceblue;
+}
+
+.list-btn {
+	border: none;
+	padding: 5px 8px;
+	background: #fff;
+	font-weight: 600;
+	border-radius: 2px 0 0 2px;
+	width: 40%;
+}
+
+.list-btn:hover {
+	background: #ebebeb;
+}
+
+.list-input {
+	border: none;
+	padding: 5px 8px;
+	border-radius: 0 2px 2px 0;
+	width: 60%;
+}
+
+.locations-list {
+	padding: 0 10px 10px 10px;
+	list-style: none;
+	background: #E0FFFF;
+	width: 250px;
+	border-bottom: 1px solid #ccc;
+}
+
+.location-item {
+	padding: 10px 0;
+	border-bottom: 4px solid #fff;
+}
+
+.location-item:hover {
+	border-color: #35b4bf;
+	color: #35b4bf;
+	cursor: pointer;
+}
+
+/* info window */
+.info-window-box {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 50;
+	width: 250px;
+	height: 42%;
+	max-height: 380px;
+	min-height: 250px;
+	overflow: auto;
+	background: #fff;
+	padding: 0 10px 10px 10px;
+	margin: 10px;
+	border-radius: 2px 2px 0 0;
+	text-align: justify;
+}
+
+.info-window-box h2 {
+	border-bottom: 2px solid #bbb;
+	padding: 0 0 5px 0;
+	margin: 0 0 10px 0;
+	text-align: left;
+}
+
+/* WikSource */
+.wikSource {
+	color: #aaa;
+	font-style: italic;
+	font-size: 0.8em;
+	margin: 5px 0;
+}
